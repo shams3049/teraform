@@ -9,6 +9,7 @@ This repository contains various learning examples for Terraform. These examples
 - [Examples](#examples)
   - [Advance Orchestration](#advance-orchestration)
   - [Terraform Nginx Demo](#terraform-nginx-demo)
+  - [GPU CV API Example](#gpu-cv-api-example)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -40,6 +41,12 @@ For detailed instructions and usage, refer to the [Advance Orchestration README]
 This example demonstrates how to use Terraform to set up an Nginx container using Docker. It includes creating a Docker image for Nginx and launching a Docker container with the Nginx image.
 
 For detailed instructions and usage, refer to the [Terraform Nginx Demo README](terraform-nginx-demo/README.md).
+
+### GPU CV API Example
+
+This example demonstrates how to set up a GPU backend machine learning-based computer vision API using Terraform and Docker. The API provides image annotations by detecting objects in the image.
+
+For detailed instructions and usage, refer to the [GPU CV API Example README](gpu_cv_api_example/README.md).
 
 ## Contributing
 
