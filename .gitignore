@@ -32,3 +32,25 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore Terraform state backup files
+*.tfstate.backup
+
+# Ignore Terraform crash log files
+*.crash.log
+
+# Ignore Terraform variable definition files
+*.tfvars
+*.tfvars.json
+
+# Ignore Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore Terraform provider lock files
+.terraform.lock.hcl
